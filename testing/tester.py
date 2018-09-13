@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import simple
-encrypted = simple.encrypt("Hello world")
+import base64_cipher
+encrypted = base64_cipher.encrypt("Hello world")
 print(encrypted)
 
-decrypted = simple.decrypt(encrypted)
+decrypted = base64_cipher.decrypt(encrypted)
 print(decrypted)
