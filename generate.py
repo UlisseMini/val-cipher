@@ -3,8 +3,9 @@
 # Created by valvate / peep
 
 from random import shuffle
-alphabet = "abcdefghijklmnopqrstuvwxyz1234567890"
-alphabet = alphabet + alphabet.upper()
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+alphabet = alphabet + alphabet.upper() + '1234567890'
 print(alphabet)
 alphabet = list(alphabet)
 
